@@ -1,0 +1,246 @@
+cv:
+  name: Partham Solanki
+  email: partham.solanki@outlook.com
+  phone: +91-8287403262
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: partham-solanki
+    - network: GitHub
+      username: ParthamSolanki
+  sections:
+      skills:
+      - label: Data Analysis & BI
+        details: SQL, Python (Pandas, NumPy, Matplotlib, Jupyter), Excel, Tableau, Power BI
+      - label: Dev & Collaboration Tools
+        details: Git, Google Workspace, Notion, Slack
+      - label: Cloud & Automation Tools
+        details: Basics of Cloud Computing (Azure, AWS, GCP)
+      projects:
+      - name: '[Stock Market Analysis & Visualization in Python](https://github.com/ParthamSolanki/Stock_analysis_python)'
+        date: 
+        start_date:
+        end_date:
+        location:
+        summary: 
+        highlights:
+          - Utilized Pandas and NumPy to clean financial datasets and calculate technical indicators like Rolling Averages, alpha, beta.
+          - Developed interactive visualizations with Matplotlib, Seaborn, Plotly to compare stock performance.
+          - Identified risk-reward profiles by analyzing historical price fluctuations and volume trends to support data-driven investment insights.
+      - name: '[HR Analytics Dashboard in Power BI](https://github.com/ParthamSolanki/powerbi_project_resume)'
+        date: 
+        start_date:
+        end_date:
+        location:
+        summary: Developed a Power BI dashboard using the Excel-prepped HR dataset, enhancing interactivity and visualization. Modeled data relationships, created DAX measures for metrics like active employees and attrition, and designed clean, drillable visuals to explore salary, recruitment, and satisfaction insights.
+        highlights:
+      - name: '[SQL Data Cleaning & Exploratory Analysis (Goodreads Books Dataset)](https://github.com/ParthamSolanki/sql_project_resume)'
+        date:
+        start_date: 
+        end_date: 
+        location:
+        summary: Cleaned a dataset of 10,000+ books, then performed SQL-based exploratory analysis to uncover trends.
+        highlights:
+          - Removed duplicates and standardized author/publisher fields; converted dates to appropriate datatype.
+          - Applied CTEs, window functions, and aggregations to rank top books by year and publisher.
+      - name: '[HR Analytics and Visualization Project in Excel](https://github.com/ParthamSolanki/excel_project_resume)'
+        date: 
+        start_date:
+        end_date:
+        location:
+        summary: Transformed raw data into actionable insights on key metrics like attrition, salary distribution & employee satisfaction.
+        highlights:
+          - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
+          - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
+          - Identified key trends to support data-driven decisions on retention, compensation & employee well-being.
+      education:
+      - institution: LPU
+        area: Mathematics (Online)
+        degree: M. Sc.
+        date:
+        start_date: 2025
+        end_date: 2027
+        location:
+        summary:
+        highlights:
+#          - 'Electives: Finance'
+      - institution: MDU
+        area: Physical Science & Mathematics
+        degree: B. Ed.
+        date:
+        start_date: 2023
+        end_date: 2025
+        location:
+        summary:
+        highlights:
+      - institution: Ramjas College, DU
+        area: Physics
+        degree: B. Sc. (Hons)
+        date:
+        start_date: 2019
+        end_date: 2022
+        location:
+        summary:
+        highlights:
+#          - 'Electives: Mathematics'
+      - institution: Google
+        area: Data Analytics
+        degree: Professional Certificate
+        date:
+        start_date:
+        end_date:
+        location:
+        summary:
+        highlights:
+      summary: 
+      - My lifelong love of mathematics led me to earn a B.Sc. (Hons) in Physics, and a brief foray into teaching gave me clarity to refocus on data—so I completed the Google Data Analytics certification to pursue analytics full time. Since then, I’ve been building hands on projects to showcase my SQL, BigQuery, and Tableau expertise while expanding my toolkit with Docker, python and advanced analytics techniques. I’m eager to apply this skill set to deliver actionable insights and drive data-informed decisions in a full-time role, while continuing to grow within a collaborative data team.
+design:
+  theme: sb2nov
+  page:
+    size: us-letter
+    top_margin: 1cm
+    bottom_margin: 1cm
+    left_margin: 1.5cm
+    right_margin: 1.5cm
+    show_page_numbering: true
+    show_last_updated_date: true
+  colors:
+    text: rgb(0, 0, 0)
+    name: rgb(0, 0, 0)
+    connections: rgb(0, 0, 0)
+    section_titles: rgb(0, 0, 0)
+    links: rgb(0, 79, 144)
+    last_updated_date_and_page_numbering: rgb(128, 128, 128)
+  text:
+    font_family: New Computer Modern
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_family: New Computer Modern
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    connections_font_family: New Computer Modern
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_family: New Computer Modern
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: ◦
+    top_margin: 0.25cm
+    left_margin: 0.4cm
+    vertical_space_between_highlights: 0.25cm
+    horizontal_space_between_bullet_and_highlight: 0.5em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        *DEGREE in AREA*
+      degree_column_template:
+      degree_column_width: 1cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    experience_entry:
+      main_column_first_row_template: |-
+        **POSITION**
+        *COMPANY*
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        *LOCATION*
+        *DATE*
+    publication_entry:
+      main_column_first_row_template: '**TITLE**'
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: RESUME
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+rendercv_settings:
+  date: '2026-01-31'
+  render_command:
+  bold_keywords: []
