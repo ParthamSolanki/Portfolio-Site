@@ -2,6 +2,7 @@
 
 - Phone: +91 82874 03262
 - Email: [partham.solanki@outlook.com](mailto:partham.solanki@outlook.com)
+- Location: Delhi NCR
 - LinkedIn: [partham-solanki](https://linkedin.com/in/partham-solanki)
 - GitHub: [ParthamSolanki](https://github.com/ParthamSolanki)
 
@@ -35,7 +36,7 @@
 
 # Education
 
-## LPU, M. Sc. in Mathematics (Online)
+## LPU, M. Sc. in Mathematics (Online) (Ongoing)
 
 - 2025 – 2027
 
@@ -52,5 +53,5 @@
 
 # Summary
 
-My lifelong love of mathematics led me to earn a B.Sc. (Hons) in Physics, and a brief foray into teaching gave me clarity to refocus on data—so I completed the Google Data Analytics certification to pursue analytics full time. Since then, I’ve been building hands on projects to showcase my SQL, BigQuery, and Tableau expertise while expanding my toolkit with Docker, python and advanced analytics techniques. I’m eager to apply this skill set to deliver actionable insights and drive data-informed decisions in a full-time role, while continuing to grow within a collaborative data team.
+Current M.Sc. Mathematics student and Physics graduate transitioning into Data Analytics with a Google Data Analytics Certificate. Proficient in SQL, Python, and Power BI to transform complex datasets into actionable business insights. Experienced in building end-to-end pipelines, from data cleaning and statistical modeling to interactive dashboarding to drive data-informed decision-making.
 

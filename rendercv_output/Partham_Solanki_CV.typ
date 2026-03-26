@@ -451,6 +451,7 @@
 
 // Print connections:
 #let connections-list = (
+  [#fa-icon("location-dot", size: 0.9em) #h(0.05cm)Delhi NCR],
   [#box(original-link("mailto:partham.solanki@outlook.com")[#fa-icon("envelope", size: 0.9em) #h(0.05cm)partham.solanki\@outlook.com])],
   [#box(original-link("tel:+91-82874-03262")[#fa-icon("phone", size: 0.9em) #h(0.05cm)082874 03262])],
   [#box(original-link("https://linkedin.com/in/partham-solanki")[#fa-icon("linkedin", size: 0.9em) #h(0.05cm)partham-solanki])],
@@ -536,7 +537,7 @@
   left-content: [
     #strong[LPU]
 
-#emph[M. Sc. in Mathematics \(Online\)]
+#emph[M. Sc. in Mathematics \(Online\) \(Ongoing\)]
   ],
   right-content: [
     #emph[2025 – 2027]
@@ -618,7 +619,7 @@
 
 
 #one-col-entry(
-  content: [My lifelong love of mathematics led me to earn a B.Sc. \(Hons\) in Physics, and a brief foray into teaching gave me clarity to refocus on data—so I completed the Google Data Analytics certification to pursue analytics full time. Since then, I’ve been building hands on projects to showcase my SQL, BigQuery, and Tableau expertise while expanding my toolkit with Docker, python and advanced analytics techniques. I’m eager to apply this skill set to deliver actionable insights and drive data-informed decisions in a full-time role, while continuing to grow within a collaborative data team.]
+  content: [Current M.Sc. Mathematics student and Physics graduate transitioning into Data Analytics with a Google Data Analytics Certificate. Proficient in SQL, Python, and Power BI to transform complex datasets into actionable business insights. Experienced in building end-to-end pipelines, from data cleaning and statistical modeling to interactive dashboarding to drive data-informed decision-making.]
 )
 
 
