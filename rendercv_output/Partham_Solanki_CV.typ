@@ -619,7 +619,7 @@
 
 
 #one-col-entry(
-  content: [Current M.Sc. Mathematics student and Physics graduate transitioning into Data Analytics with a Google Data Analytics Certificate. Proficient in SQL, Python, and Power BI to transform complex datasets into actionable business insights. Experienced in building end-to-end pipelines, from data cleaning and statistical modeling to interactive dashboarding to drive data-informed decision-making.]
+  content: [Current M.Sc. Mathematics student and Physics graduate transitioning into Data Analytics with a Google Data Analytics Certificate. Proficient in SQL, Python, and Power BI to transform complex datasets into actionable business insights. Experienced in building end-to-end pipelines, from data cleaning and statistical modeling to interactive dashboarding to drive data-informed decision making.]
 )
 
 
