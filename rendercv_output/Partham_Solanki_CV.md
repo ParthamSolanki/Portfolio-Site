@@ -16,7 +16,7 @@
 
 ## [Stock Market Analysis & Visualization in Python](https://github.com/ParthamSolanki/Stock_analysis_python)
 
-- Utilized Pandas and NumPy to clean financial datasets and calculate technical indicators like Rolling Averages, alpha, beta.
+- Modeled stock market volatility using Rolling Averages and Beta coefficients to identify risk to reward profiles for potential investors.
 - Developed interactive visualizations with Matplotlib, Seaborn, Plotly to compare stock performance.
 - Identified risk-reward profiles by analyzing historical price fluctuations and volume trends to support data-driven investment insights.
 
