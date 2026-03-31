@@ -54,7 +54,7 @@
 #let design-page-bottom-margin = 1cm
 #let design-page-left-margin = 1.5cm
 #let design-page-right-margin = 1.5cm
-#let design-page-show-last-updated-date = true
+#let design-page-show-last-updated-date = false
 #let design-page-show-page-numbering = true
 #let design-links-underline = true
 #let design-entry-types-education-entry-degree-column-width = 1cm
@@ -465,7 +465,7 @@
 
 
 #one-col-entry(
-  content: [#strong[Data Analysis & BI:] SQL, Python \(Pandas, NumPy, Matplotlib, Jupyter\), Excel, Tableau, Power BI]
+  content: [#strong[Data Analysis & BI:] SQL \(MySQL, DuckDB\), Python \(Pandas, NumPy, Matplotlib, Seaborn, Jupyter\), Excel, Tableau, Power BI]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -486,7 +486,7 @@
     #link("https://github.com/ParthamSolanki/Stock_analysis_python")[#strong[Stock Market Analysis & Visualization in Python]]
 
     #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([Modeled stock market volatility using Rolling Averages and Beta coefficients to identify risk to reward profiles for potential investors.],[Developed interactive visualizations with Matplotlib, Seaborn, Plotly to compare stock performance.],[Identified risk-reward profiles by analyzing historical price fluctuations and volume trends to support data-driven investment insights.],)
+    #v(design-highlights-top-margin);#highlights([Modeled stock market volatility using Rolling Averages and Beta coefficients to identify risk to reward profiles for potential investors.],[Developed interactive visualizations with Matplotlib, Seaborn, Plotly to compare stock performance.],)
   ],
 )
 
@@ -497,7 +497,7 @@
     #link("https://github.com/ParthamSolanki/powerbi_project_resume")[#strong[HR Analytics Dashboard in Power BI]]
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a Power BI dashboard using the Excel-prepped HR dataset, enhancing interactivity and visualization. Modeled data relationships, created DAX measures for metrics like active employees and attrition, and designed clean, drillable visuals to explore salary, recruitment, and satisfaction insights.])], column-gutter: 0cm)
+    #v(design-highlights-top-margin);#highlights([Engineered a comprehensive tracking system to transform raw workforce data into interactive insights on attrition, salary parity, and employee satisfaction.],[Designed multi-layered visuals that simplify recruitment & compensation trends for organizational planning.],[Developed custom DAX measures to monitor active employees and departmental attrition.],)
   ],
 )
 
@@ -508,9 +508,7 @@
     #link("https://github.com/ParthamSolanki/sql_project_resume")[#strong[SQL Data Cleaning & Exploratory Analysis \(Goodreads Books Dataset\)]]
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Cleaned a dataset of 10,000+ books, then performed SQL-based exploratory analysis to uncover trends.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Removed duplicates and standardized author\/publisher fields; converted dates to appropriate datatype.],[Applied CTEs, window functions, and aggregations to rank top books by year and publisher.],)
+    #v(design-highlights-top-margin);#highlights([Created a multi stage cleaning pipeline to standardize 10,000+ records, resolving data type inconsistencies & handling missing values via CTEs.],[Implemented advanced queries using Window Functions and Aggregations to rank publication performance & identify top publishers by year.],[Optimized data integrity by enforcing unique constraints and standardizing author\/publisher schemas to ensure reporting accuracy.],)
   ],
 )
 
@@ -521,9 +519,7 @@
     #link("https://github.com/ParthamSolanki/excel_project_resume")[#strong[HR Analytics and Visualization Project in Excel]]
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Transformed raw data into actionable insights on key metrics like attrition, salary distribution & employee satisfaction.])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.],[Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.],[Identified key trends to support data-driven decisions on retention, compensation & employee well-being.],)
+    #v(design-highlights-top-margin);#highlights([Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.],[Built a single-page, interactive dashboard with visualizations to centralize and automate KPI reporting.],[Identified key trends to support data-driven decisions on retention, compensation & employee well-being.],)
   ],
 )
 
@@ -619,7 +615,7 @@
 
 
 #one-col-entry(
-  content: [Current M.Sc. Mathematics student and Physics graduate transitioning into Data Analytics with a Google Data Analytics Certificate. Proficient in SQL, Python, and Power BI to transform complex datasets into actionable business insights. Experienced in building end-to-end pipelines, from data cleaning and statistical modeling to interactive dashboarding to drive data-informed decision making.]
+  content: [Data Analyst with a B.Sc. \(Honours\) in Physics and an ongoing M.Sc. in Mathematics. Leveraging a Google Professional Certificate and advanced statistical knowledge to engineer automated reporting and predictive insights. Skilled in SQL \(CTEs, Window Functions\), Python \(Pandas, Seaborn\), Power BI for end to end data modeling.]
 )
 
 
