@@ -508,7 +508,7 @@
     #link("https://github.com/ParthamSolanki/sql_project_resume")[#strong[SQL Data Cleaning & Exploratory Analysis \(Goodreads Books Dataset\)]]
 
     #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([Created a multi stage cleaning pipeline to standardize 10,000+ records, resolving data type inconsistencies & handling missing values via CTEs.],[Implemented advanced queries using Window Functions and Aggregations to rank publication performance & identify top publishers by year.],[Optimized data integrity by enforcing unique constraints and standardizing author\/publisher schemas to ensure reporting accuracy.],)
+    #v(design-highlights-top-margin);#highlights([Created a multi stage cleaning pipeline to standardize 10,000+ records, resolving data type inconsistencies & handling duplicate entries via CTEs.],[Implemented advanced queries using Window Functions and Aggregations to rank publication performance & identify top publishers by year.],)
   ],
 )
 
@@ -615,7 +615,7 @@
 
 
 #one-col-entry(
-  content: [Data Analyst with a B.Sc. \(Honours\) in Physics and an ongoing M.Sc. in Mathematics. Leveraging a Google Professional Certificate and advanced statistical knowledge to engineer automated reporting and predictive insights. Skilled in SQL \(CTEs, Window Functions\), Python \(Pandas, Seaborn\), Power BI for end to end data modeling.]
+  content: [Data Analyst with a B.Sc. \(Honours\) in Physics and an ongoing M.Sc. in Mathematics. Leveraging a Google Professional Certificate and advanced statistical knowledge to engineer automated reporting and actionable insights. Skilled in SQL \(CTEs, Window Functions\), Python \(Pandas, Seaborn\), Power BI for end to end data modeling.]
 )
 
 
