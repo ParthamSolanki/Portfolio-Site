@@ -1,249 +1,283 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Partham Solanki
-#  website: https://parthamsolanki.github.io/Portfolio-Site/
+  # headline:
   location: Delhi NCR
   email: partham.solanki@outlook.com
+  # photo:
   phone: +91-8287403262
+  # website: https://parthamsolanki.github.io/Portfolio-Site/
   social_networks:
     - network: LinkedIn
       username: partham-solanki
     - network: GitHub
       username: ParthamSolanki
+  custom_connections:
   sections:
-      skills:
+    summary:
+      - Data Analyst with a B.Sc. (Honours) in Physics and an ongoing M.Sc. in Mathematics. Leveraging a Google Professional Certificate and advanced statistical knowledge to engineer automated reporting and actionable insights. Skilled in SQL (CTEs, Window Functions), Python (Pandas, Seaborn), Power BI for end to end data modeling.
+    skills:
       - label: Data Analysis & BI
-        details: SQL (MySQL, DuckDB), Python (Pandas, NumPy, Matplotlib, Seaborn, Jupyter), Excel, Tableau, Power BI
+        details: SQL (MySQL, BigQuery, DuckDB), Python (Pandas, NumPy, Matplotlib, Seaborn, Jupyter), Excel, Tableau, Power BI
       - label: Dev & Collaboration Tools
         details: Git, Google Workspace, Notion, Slack
       - label: Cloud & Automation Tools
-        details: Basics of Cloud Computing (Azure, AWS, GCP)
-      projects:
-      - name: '[Stock Market Analysis & Visualization in Python](https://github.com/ParthamSolanki/Stock_analysis_python)'
+        details: AWS (S3), Bash Scripting (Task Scheduling)
+      - label: Certifications
+        details: Google Data Analytics Professional Certificate
+    education:
+      - institution: LPU
+        area: Mathematics (Online) (Ongoing)
+        degree: M. Sc.
         date:
-        start_date:
-        end_date:
-        location:
-        summary:
+        # start_date: 2025
+        # end_date: 2027
+        # location:
+        # summary:
+        highlights:
+          - 'Electives: Finance'
+      # - institution: MDU
+        # area: Physical Science & Mathematics
+        # degree: B. Ed.
+        # date:
+        # start_date: 2023
+        # end_date: 2025
+        # location:
+        # summary:
+        # highlights:
+      - institution: Ramjas College, DU
+        area: Physics
+        degree: B. Sc. (Hons)
+        # date:
+        # start_date: 2019
+        # end_date: 2022
+        # location:
+        # summary:
+        highlights:
+          - 'Electives: Mathematics'
+    projects:
+      - name: '[Stock Market Analysis & Visualization in Python](https://github.com/ParthamSolanki/Stock_analysis_python)'
+        # date:
+        # start_date:
+        # end_date:
+        # location:
+        # summary:
         highlights:
           - Modeled stock market volatility using Rolling Averages and Beta coefficients to identify risk to reward profiles for potential investors.
           - Developed interactive visualizations with Matplotlib, Seaborn, Plotly to compare stock performance.
       - name: '[HR Analytics Dashboard in Power BI](https://github.com/ParthamSolanki/powerbi_project_resume)'
-        date:
-        start_date:
-        end_date:
-        location:
-        summary:
+        # date:
+        # start_date:
+        # end_date:
+        # location:
+        # summary:
         highlights:
           - Engineered a comprehensive tracking system to transform raw workforce data into interactive insights on attrition, salary parity, and employee satisfaction.
           - Designed multi-layered visuals that simplify recruitment & compensation trends for organizational planning.
           - Developed custom DAX measures to monitor active employees and departmental attrition.
       - name: '[SQL Data Cleaning & Exploratory Analysis (Goodreads Books Dataset)](https://github.com/ParthamSolanki/sql_project_resume)'
-        date:
-        start_date:
-        end_date:
-        location:
-        summary: 
+        # date:
+        # start_date:
+        # end_date:
+        # location:
+        # summary:
         highlights:
           - Created a multi stage cleaning pipeline to standardize 10,000+ records, resolving data type inconsistencies & handling duplicate entries via CTEs.
           - Implemented advanced queries using Window Functions and Aggregations to rank publication performance & identify top publishers by year.
       - name: '[HR Analytics and Visualization Project in Excel](https://github.com/ParthamSolanki/excel_project_resume)'
-        date:
-        start_date:
-        end_date:
-        location:
-        summary:
+        # date:
+        # start_date:
+        # end_date:
+        # location:
+        # summary:
         highlights:
           - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
           - Built a single-page, interactive dashboard with visualizations to centralize and automate KPI reporting.
           - Identified key trends to support data-driven decisions on retention, compensation & employee well-being.
-      education:
-      - institution: LPU
-        area: Mathematics (Online) (Ongoing)
-        degree: M. Sc.
-        date:
-        start_date: 2025
-        end_date: 2027
-        location:
-        summary:
-        highlights:
-#          - 'Electives: Finance'
-      - institution: MDU
-        area: Physical Science & Mathematics
-        degree: B. Ed.
-        date:
-        start_date: 2023
-        end_date: 2025
-        location:
-        summary:
-        highlights:
-      - institution: Ramjas College, DU
-        area: Physics
-        degree: B. Sc. (Hons)
-        date:
-        start_date: 2019
-        end_date: 2022
-        location:
-        summary:
-        highlights:
-#          - 'Electives: Mathematics'
-      - institution: Google
-        area: Data Analytics
-        degree: Professional Certificate
-        date:
-        start_date:
-        end_date:
-        location:
-        summary:
-        highlights:
-      summary:
-      - Data Analyst with a B.Sc. (Honours) in Physics and an ongoing M.Sc. in Mathematics. Leveraging a Google Professional Certificate and advanced statistical knowledge to engineer automated reporting and actionable insights. Skilled in SQL (CTEs, Window Functions), Python (Pandas, Seaborn), Power BI for end to end data modeling.
 design:
   theme: sb2nov
   page:
-    size: us-letter
-    top_margin: 1cm
-    bottom_margin: 1cm
-    left_margin: 1.5cm
-    right_margin: 1.5cm
-    show_page_numbering: true
-    show_last_updated_date: false
+    size: a4 # us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.6in
+    right_margin: 0.6in
+    show_footer: false
+    show_top_note: false
   colors:
-    text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
-    connections: rgb(0, 0, 0)
-    section_titles: rgb(0, 0, 0)
-    links: rgb(0, 79, 144)
-    last_updated_date_and_page_numbering: rgb(128, 128, 128)
-  text:
-    font_family: New Computer Modern
-    font_size: 10pt
-    leading: 0.6em
-    alignment: justified
-    date_and_location_column_alignment: right
-  links:
-    underline: true
-    use_external_link_icon: false
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 0, 0)
+  #   headline: rgb(0, 0, 0)
+    connections: rgb(0, 0, 144)
+  #   section_titles: rgb(0, 0, 0)
+    links: rgb(0, 0, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: New Computer Modern
+  #     name: New Computer Modern
+  #     headline: New Computer Modern
+  #     connections: New Computer Modern
+  #     section_titles: New Computer Modern
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: true
+  #   show_external_link_icon: false
   header:
-    name_font_family: New Computer Modern
-    name_font_size: 30pt
-    name_bold: true
-    photo_width: 3.5cm
-    vertical_space_between_name_and_connections: 0.7cm
-    vertical_space_between_connections_and_first_section: 0.7cm
-    horizontal_space_between_connections: 0.5cm
-    connections_font_family: New Computer Modern
-    separator_between_connections: ''
-    use_icons_for_connections: true
-    alignment: center
-  section_titles:
-    type: with-parial-line
-    font_family: New Computer Modern
-    font_size: 1.4em
-    bold: true
-    small_caps: false
-    line_thickness: 0.5pt
-    vertical_space_above: 0.5cm
-    vertical_space_below: 0.3cm
-  entries:
-    date_and_location_width: 4.15cm
-    left_and_right_margin: 0.2cm
-    horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 1.2em
-    allow_page_break_in_sections: true
-    allow_page_break_in_entries: true
-    short_second_row: false
-    show_time_spans_in: []
-  highlights:
-    bullet: ◦
-    top_margin: 0.25cm
-    left_margin: 0.4cm
-    vertical_space_between_highlights: 0.25cm
-    horizontal_space_between_bullet_and_highlight: 0.5em
-    summary_left_margin: 0cm
-  entry_types:
-    one_line_entry:
-      template: '**LABEL:** DETAILS'
-    education_entry:
-      main_column_first_row_template: |-
-        **INSTITUTION**
-        *DEGREE in AREA*
-      degree_column_template:
-      degree_column_width: 1cm
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
-    normal_entry:
-      main_column_first_row_template: '**NAME**'
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
-    experience_entry:
-      main_column_first_row_template: |-
-        **POSITION**
-        *COMPANY*
-      main_column_second_row_template: |-
-        SUMMARY
-        HIGHLIGHTS
-      date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
-    publication_entry:
-      main_column_first_row_template: '**TITLE**'
-      main_column_second_row_template: |-
-        AUTHORS
-        URL (JOURNAL)
-      main_column_second_row_without_journal_template: |-
-        AUTHORS
-        URL
-      main_column_second_row_without_url_template: |-
-        AUTHORS
-        JOURNAL
-      date_and_location_column_template: DATE
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+    connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+      show_icons: true
+      display_urls_instead_of_usernames: false
+      separator: ""
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_full_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in: []
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: false
+  #   degree_width: 1cm
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: ◦
+  #     nested_bullet: ◦
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**
+  #       *DEGREE* *in* *AREA*
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column:
+  #     date_and_location_column: |-
+  #       *LOCATION*
+  #       *DATE*
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       *LOCATION*
+  #       *DATE*
+  #   experience_entry:
+  #     main_column: |-
+  #       **POSITION**
+  #       *COMPANY*
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       *LOCATION*
+  #       *DATE*
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
 locale:
-  language: en
-  phone_number_format: national
-  page_numbering_template: RESUME
-  last_updated_date_template: Last updated in TODAY
-  date_template: MONTH_ABBREVIATION YEAR
-  month: month
-  months: months
-  year: year
-  years: years
-  present: present
-  to: –
-  abbreviations_for_months:
-    - Jan
-    - Feb
-    - Mar
-    - Apr
-    - May
-    - June
-    - July
-    - Aug
-    - Sept
-    - Oct
-    - Nov
-    - Dec
-  full_names_of_months:
-    - January
-    - February
-    - March
-    - April
-    - May
-    - June
-    - July
-    - August
-    - September
-    - October
-    - November
-    - December
-rendercv_settings:
-  date: '2026-01-31'
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # phrases:
+  #   degree_with_area: DEGREE in AREA
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  # current_date: today
   render_command:
+    output_folder: rendercv_output
+    design:
+    locale:
+    typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.md
+    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
   bold_keywords: []
+  pdf_title: NAME - CV
