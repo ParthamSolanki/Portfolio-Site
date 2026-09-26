@@ -6,7 +6,7 @@
   name: "Partham Solanki",
   title: "Partham Solanki - CV",
   footer: context { [#emph[Partham Solanki -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Aug 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -80,7 +80,7 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 8,
+    month: 9,
     day: 14,
   ),
 )
@@ -99,15 +99,13 @@
 
 == Summary
 
-Data Analyst with a B.Sc. (Honours) in Physics and an ongoing M.Sc. in Mathematics. Leveraging a Google Professional Certificate and advanced statistical knowledge to engineer automated reporting and actionable insights. Skilled in SQL (CTEs, Window Functions), Python (Pandas, Seaborn), Power BI for end to end data modeling.
+Data Analyst with a B.Sc. (Honours) in Physics and an ongoing M.Sc. in Mathematics. Leveraging a Google Professional Certificate and advanced statistical knowledge to engineer automated reporting and actionable insights. Skilled in SQL (CTEs, Window Functions), Python (Pandas, Seaborn), Power BI for end-to-end data modeling.
 
 == Skills
 
-#strong[Data Analysis & BI:] SQL (MySQL, BigQuery, DuckDB), Python (Pandas, NumPy, Matplotlib, Seaborn, Jupyter), Excel, Tableau, Power BI
+#strong[Data Analysis & BI:] SQL (MySQL, BigQuery, DuckDB), Python (Pandas, NumPy, Matplotlib, Plotly, Seaborn, Streamlit, Jupyter), Excel, Tableau, Power BI
 
-#strong[Dev & Collaboration Tools:] Git, Google Workspace, Notion, Slack
-
-#strong[Cloud & Automation Tools:] AWS (S3), Bash Scripting (Task Scheduling)
+#strong[Developer Tools & Cloud:] Git, GitHub, Streamlit Cloud, Bash Scripting
 
 #strong[Certifications:] Google Data Analytics Professional Certificate
 
@@ -147,22 +145,24 @@ Data Analyst with a B.Sc. (Honours) in Physics and an ongoing M.Sc. in Mathemati
 
   #regular-entry(
   [
-    #strong[#link("https://github.com/ParthamSolanki/Stock_analysis_python")[Stock Market Analysis & Visualization in Python]]
+    #strong[Banking Sector Stock Analytics Pipeline | Python, Streamlit, Pandas | #link("https://banking-stock-analysis-etl.streamlit.app/")[Live Demo] | #link("https://github.com/ParthamSolanki/Banking-stock-analysis-ETL")[GitHub]]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Modeled stock market volatility using Rolling Averages and Beta coefficients to identify risk to reward profiles for potential investors.
+    - Built an ETL pipeline with Parquet data caching to optimize Yahoo Finance (`yfinance`) ingestion speed and eliminate API redundancy.
 
-    - Developed interactive visualizations with Matplotlib, Seaborn, Plotly to compare stock performance.
+    - Computed quantitative risk\/return metrics (Jensen’s Alpha, Sharpe Ratio, Beta, RSI) using NumPy and Pandas.
+
+    - Deployed an interactive Streamlit Cloud dashboard featuring customizable risk-free rates, Plotly candlestick moving averages, and automated portfolio allocation logic.
 
   ],
 )
 
   #regular-entry(
   [
-    #strong[#link("https://github.com/ParthamSolanki/powerbi_project_resume")[HR Analytics Dashboard in Power BI]]
+    #strong[HR Analytics Dashboard | Power BI | #link("https://github.com/ParthamSolanki/powerbi_project_resume")[GitHub]]
 
   ],
   [
@@ -179,13 +179,13 @@ Data Analyst with a B.Sc. (Honours) in Physics and an ongoing M.Sc. in Mathemati
 
   #regular-entry(
   [
-    #strong[#link("https://github.com/ParthamSolanki/sql_project_resume")[SQL Data Cleaning & Exploratory Analysis (Goodreads Books Dataset)]]
+    #strong[Data Cleaning & Exploratory Analysis (Goodreads Books Dataset) | SQL | #link("https://github.com/ParthamSolanki/sql_project_resume")[GitHub]]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Created a multi stage cleaning pipeline to standardize 10,000+ records, resolving data type inconsistencies & handling duplicate entries via CTEs.
+    - Created a multi-stage cleaning pipeline to standardize 10,000+ records, resolving data type inconsistencies & handling duplicate entries via CTEs.
 
     - Implemented advanced queries using Window Functions and Aggregations to rank publication performance & identify top publishers by year.
 
@@ -194,7 +194,7 @@ Data Analyst with a B.Sc. (Honours) in Physics and an ongoing M.Sc. in Mathemati
 
   #regular-entry(
   [
-    #strong[#link("https://github.com/ParthamSolanki/excel_project_resume")[HR Analytics and Visualization Project in Excel]]
+    #strong[HR Analytics and Visualization Project | Excel | #link("https://github.com/ParthamSolanki/excel_project_resume")[GitHub]]
 
   ],
   [
